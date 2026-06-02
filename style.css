@@ -166,6 +166,24 @@ blockquote {
   background: linear-gradient(135deg, #fffdf3 0%, #fff 100%);
 }
 
+.news .newsmeta {
+  display: inline-block;
+  font-family: "Courier New", monospace;
+  font-size: 0.85rem;
+  color: var(--rood);
+  background: var(--crème);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.news h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 0.25rem;
+  font-size: 1.4rem;
+}
+
 .pledge {
   font-size: 1.15rem;
   font-style: italic;
